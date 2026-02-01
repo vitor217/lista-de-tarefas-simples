@@ -42,12 +42,6 @@ def sacar():
         time.sleep(2)
         os.system("cls")
         main()
-    if valor_saque < 0:
-        print("Valor inválido.")
-        print("Voltando à tela inicial...")
-        time.sleep(2)
-        os.system("cls")
-        main()
 
 def depositar():
     global saldo
